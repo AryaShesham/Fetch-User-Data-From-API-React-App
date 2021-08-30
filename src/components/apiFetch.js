@@ -61,7 +61,7 @@ const ApiFetch = () => {
                                     <nav>
                                         <ul className="pagination">
                                             <li key={num} className="page-item">
-                                                <a onClick={() => { setDefaultNumber(num) }} href="!#" className="page-link">
+                                                <a onClick={() => { setDefaultNumber(num) }} href className="page-link">
                                                     {num}
                                                 </a>
                                             </li>
